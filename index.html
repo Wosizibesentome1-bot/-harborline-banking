@@ -247,6 +247,48 @@ body{background:#f6f3ed;color:#1d252b}
 .footer strong{color:#e4c98e}
 @media(max-width:850px){.hero{background:linear-gradient(150deg,#101619,#26363b)}}
 
+
+.banking-editorial{background:#f3efe6;padding:92px clamp(20px,7vw,112px) 80px;color:#20272a}
+.banking-intro{max-width:1200px;margin:0 auto 54px;display:grid;grid-template-columns:1.1fr .9fr;gap:55px;align-items:end}
+.editorial-kicker{font-size:10px;letter-spacing:.2em;font-weight:900;color:#a27d42}
+.banking-intro h2,.guides-heading h2{font-family:Georgia,"Times New Roman",serif;font-weight:500;font-size:clamp(38px,5vw,60px);line-height:1.03;letter-spacing:-1.8px;margin:16px 0 0;color:#151d20}
+.banking-intro h2 em{color:#a27d42;font-style:italic}
+.banking-intro>p{font-size:15px;line-height:1.9;color:#66645e;margin:0 0 5px}
+.editorial-feature{max-width:1200px;margin:0 auto 58px;display:grid;grid-template-columns:1.12fr .88fr;gap:clamp(28px,5vw,68px);align-items:center}
+.editorial-feature.reverse{grid-template-columns:.88fr 1.12fr}
+.editorial-feature.reverse .editorial-photo{order:2}
+.editorial-feature.reverse .editorial-copy{order:1}
+.editorial-photo{height:390px;position:relative;overflow:hidden;border-radius:5px;background:#d5d0c6;box-shadow:0 22px 48px #201a101f}
+.editorial-photo-main{height:440px}
+.editorial-photo img,.wealth-image img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .7s}
+.editorial-photo:hover img,.wealth-feature:hover .wealth-image img{transform:scale(1.035)}
+.photo-caption{position:absolute;left:20px;bottom:18px;background:#111a20c9;color:#f0d69e;padding:9px 12px;font-size:9px;letter-spacing:.15em;font-weight:800}
+.editorial-copy{max-width:470px}
+.editorial-number{font-size:10px;letter-spacing:.17em;color:#a27d42;font-weight:900}
+.editorial-copy h3,.wealth-copy h3{font-family:Georgia,"Times New Roman",serif;font-size:clamp(30px,3.5vw,43px);font-weight:500;line-height:1.08;letter-spacing:-1px;color:#172126;margin:17px 0}
+.editorial-copy p,.wealth-copy p{font-size:14px;line-height:1.9;color:#686b68}
+.editorial-copy ul{padding-left:18px;margin:20px 0 24px;color:#424c4c;font-size:13px;line-height:2.1}
+.editorial-copy a,.wealth-copy a{color:#916b31;text-decoration:none;font-size:12px;font-weight:900;letter-spacing:.03em;border-bottom:1px solid #c8ad7c;padding-bottom:5px}
+.wealth-feature{max-width:1200px;margin:78px auto 80px;background:#121a1e;color:#fff;display:grid;grid-template-columns:1.05fr .95fr;min-height:330px}
+.wealth-image{min-height:330px;overflow:hidden}
+.wealth-copy{padding:clamp(26px,5vw,60px);align-self:center}
+.wealth-copy h3{color:#fff}
+.wealth-copy p{color:#c4c6c1}
+.wealth-copy .editorial-kicker{color:#d7b979}
+.wealth-copy a{color:#e3c98f;border-color:#a98c57}
+.finance-guides{max-width:1200px;margin:0 auto;padding:10px 0 20px}
+.guides-heading{max-width:680px;margin:0 auto 34px;text-align:center}
+.guides-heading h2{font-size:clamp(32px,4vw,46px)}
+.guides-heading p{font-size:14px;line-height:1.8;color:#6b6b63}
+.guide-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.guide-grid article{background:#fffdf8;border:1px solid #e6ddce;padding:26px 25px;min-height:220px}
+.guide-grid article span{font-size:9px;letter-spacing:.16em;font-weight:900;color:#a27d42}
+.guide-grid h3{font-family:Georgia,"Times New Roman",serif;font-weight:500;font-size:23px;color:#1d292d;margin:17px 0 10px}
+.guide-grid p{font-size:12px;line-height:1.8;color:#6c6b64;margin:0}
+.editorial-disclaimer{max-width:900px;margin:40px auto 0;text-align:center;font-size:10px;line-height:1.8;color:#777267}
+@media(max-width:800px){.banking-intro{grid-template-columns:1fr;gap:18px}.editorial-feature,.editorial-feature.reverse{grid-template-columns:1fr;gap:24px}.editorial-feature.reverse .editorial-photo,.editorial-feature.reverse .editorial-copy{order:initial}.editorial-photo,.editorial-photo-main{height:330px}.editorial-copy{max-width:none}.wealth-feature{grid-template-columns:1fr}.wealth-image{min-height:260px}.guide-grid{grid-template-columns:1fr}.banking-editorial{padding:65px 20px}}
+@media(max-width:520px){.editorial-photo,.editorial-photo-main{height:260px}.banking-intro h2{font-size:39px}.editorial-copy h3,.wealth-copy h3{font-size:32px}.wealth-copy{padding:28px 22px}.guide-grid article{min-height:0}}
+
 </style>
 </head>
 <body>
@@ -268,15 +310,14 @@ body{background:#f6f3ed;color:#1d252b}
   <article class="feature"><div class="feature-icon">♙</div><h3>Member profile</h3><p>Preview a basic profile page without submitting sensitive identity or financial information.</p></article>
  </div></section>
 
- <section class="section visual-section" id="lending">
-  <div class="section-head"><span class="visual-kicker">FINANCE, REIMAGINED</span><h2>More than everyday banking.</h2><p>Explore visual concepts for personal finance, business funding and wealth services — presented for illustration only.</p></div>
-  <div class="visual-grid">
-   <article class="visual-card"><img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1100&q=85" alt="Financial planning documents and calculator"><div class="visual-shade"></div><div class="visual-copy"><span>01 / PERSONAL FINANCE</span><h3>Personal lending</h3><p>A visual concept for planning life’s next big step.</p><b>Explore the concept ↗</b></div></article>
-   <article class="visual-card"><img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1100&q=85" alt="Business team meeting around a table"><div class="visual-shade"></div><div class="visual-copy"><span>02 / BUSINESS</span><h3>Business finance</h3><p>Ideas and tools designed around growing businesses.</p><b>Explore the concept ↗</b></div></article>
-   <article class="visual-card"><img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1100&q=85" alt="Modern glass office building"><div class="visual-shade"></div><div class="visual-copy"><span>03 / BANKING</span><h3>Modern banking</h3><p>A fresh look at the spaces shaping finance.</p><b>Explore the concept ↗</b></div></article>
-   <article class="visual-card"><img src="https://images.unsplash.com/photo-1610375461246-83df859d849d?auto=format&fit=crop&w=1100&q=85" alt="Gold bars representing precious metals"><div class="visual-shade"></div><div class="visual-copy"><span>04 / WEALTH</span><h3>Gold &amp; wealth</h3><p>A premium visual theme inspired by lasting value.</p><b>Explore the concept ↗</b></div></article>
-  </div>
-  <p class="visual-disclaimer">Harborline is fictional. These images and service categories are illustrative; no loans, deposits, investments or financial products are offered.</p>
+ <section class="banking-editorial" id="lending">
+  <div class="banking-intro"><div><span class="editorial-kicker">THE HARBORLINE EXPERIENCE</span><h2>Thoughtful banking.<br><em>Built around life.</em></h2></div><p>Explore a considered approach to everyday money management, personal finance and business growth. Harborline is a fictional banking interface concept, created to show how these services might be presented clearly and beautifully.</p></div>
+  <article class="editorial-feature"><div class="editorial-photo editorial-photo-main"><img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1500&q=88" alt="Contemporary glass financial district architecture"><span class="photo-caption">01 / A MODERN FINANCIAL WORLD</span></div><div class="editorial-copy"><span class="editorial-number">01 — EVERYDAY BANKING</span><h3>A clearer view of your finances.</h3><p>A well-designed banking experience should make the essentials easy to find. This concept brings account summaries, recent activity and personal preferences into one calm, organised space.</p><ul><li>At-a-glance account overview</li><li>Clear activity and spending categories</li><li>Personal profile and account preferences</li></ul><a href="#features">Discover the interface ↓</a></div></article>
+  <article class="editorial-feature reverse"><div class="editorial-photo"><img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1300&q=88" alt="Calculator, financial documents and planning notes"><span class="photo-caption">02 / PERSONAL FINANCE</span></div><div class="editorial-copy"><span class="editorial-number">02 — FINANCIAL PLANNING</span><h3>Make room for what comes next.</h3><p>From planning a major purchase to building a savings habit, financial tools are most useful when the information is straightforward. This section illustrates ways to organise goals, understand budgets and compare borrowing considerations.</p><ul><li>Goal-setting and savings planning concepts</li><li>Budget and repayment education</li><li>Plain-language guides to borrowing costs</li></ul><a href="#finance-guides">Explore finance guides ↓</a></div></article>
+  <article class="editorial-feature"><div class="editorial-photo"><img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1300&q=88" alt="Business owners collaborating around a table"><span class="photo-caption">03 / BUSINESS &amp; GROWTH</span></div><div class="editorial-copy"><span class="editorial-number">03 — BUSINESS BANKING</span><h3>For ideas with ambition.</h3><p>Small businesses need clear ways to understand cash flow, prepare for expenses and plan their next stage. The Harborline concept presents business finance information in a structured, approachable format.</p><ul><li>Cash-flow planning concepts</li><li>Business expense organisation</li><li>Funding-readiness information</li></ul><a href="#finance-guides">Read business finance notes ↓</a></div></article>
+  <div class="wealth-feature"><div class="wealth-image"><img src="https://images.unsplash.com/photo-1610375461246-83df859d849d?auto=format&fit=crop&w=1500&q=88" alt="Gold bars arranged as a precious metals display"></div><div class="wealth-copy"><span class="editorial-kicker">04 / WEALTH &amp; PERSPECTIVE</span><h3>Value is built with perspective.</h3><p>Learn the basics of saving, diversification, risk and long-term financial planning. This gold-inspired visual is an editorial illustration, not an investment product or recommendation.</p><a href="#finance-guides">Explore the learning hub ↓</a></div></div>
+  <section class="finance-guides" id="finance-guides"><div class="guides-heading"><span class="editorial-kicker">KNOWLEDGE, MADE CLEAR</span><h2>Good financial decisions start with good information.</h2><p>Short, practical introductions to topics people often want to understand before making financial choices.</p></div><div class="guide-grid"><article><span>01 / BORROWING</span><h3>Understanding loans</h3><p>Learn how principal, interest, repayment periods, fees and total borrowing costs fit together. Always review the full terms of any real credit agreement.</p></article><article><span>02 / SAVING</span><h3>Building a savings habit</h3><p>Explore emergency funds, setting realistic targets and making room in a budget for regular savings.</p></article><article><span>03 / BUSINESS</span><h3>Preparing for growth</h3><p>Understand cash flow, record keeping and the financial information a business may need when assessing funding options.</p></article></div></section>
+  <p class="editorial-disclaimer">Harborline is a fictional design concept, not a licensed bank, lender, broker or investment provider. The services and educational descriptions above are illustrative only. No accounts, loans, deposits, transfers or investments are offered.</p>
  </section>
  <section class="section" id="about" style="background:#eaf2f6"><div class="section-head"><h2>A concept built for clarity</h2><p>Harborline is a fictional product concept created for illustration and interface testing. It is not a licensed bank or financial institution. Do not enter real passwords, card details, account numbers, identity documents or one-time codes.</p><button class="btn btn-primary" onclick="showView('register')">Start exploring</button></div></section>
 </section>
