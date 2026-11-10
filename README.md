@@ -18,3 +18,6 @@ Open `index.html` in a modern browser, or deploy this repository as a static sit
 - Sample account overview
 - Sample transaction activity
 - Sample profile
+
+## Current visual direction
+- Design 01: Premium Corporate — white and navy surfaces, restrained teal accents, and a glass-building hero image.
